@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    if: ${{ github.repository == 'Netflix-Skunkworks/spectatord' }}
+    # if: ${{ github.repository == 'Netflix-Skunkworks/spectatord' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
